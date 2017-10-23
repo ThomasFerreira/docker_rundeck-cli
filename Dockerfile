@@ -2,8 +2,8 @@ FROM openjdk:8-jre-slim
 
 MAINTAINER Thomas Ferreira <thomas.ferreira+docker@_n0spam_protonmail.com>
 
-ARG _RD_CLI_VERSION_="1.0.19"
-ARG _RD_CLI_DEB_CHECKSUM_="a9390f243459d349140fbd3f85a0c6283c7340975acd02ca3ce198c7a78b2096eb19c07f1c4ef6d281eaa7f0305d36e46be32bb244c7422e45f5c2f3a702b62a"
+ARG _RD_CLI_VERSION_="1.0.20"
+ARG _RD_CLI_DEB_CHECKSUM_="88fd72281aaf6e51664b0ecc21d5a03a75f5291d78ad2808ac7a4ed8c8e3bbd56815d367db839d62595c91e9b135aced58ebc5bd7a35e3fb62036d03228a74d1"
 
 RUN apt-get update \
   && apt-get install -y curl \
